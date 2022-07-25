@@ -1,0 +1,12 @@
+package com.example1.demo2.mapper;
+import com.example1.demo2.entity.User;
+public interface UserMapper {
+    //增加
+   public boolean add(User user);
+    //删除
+   public boolean del(int user);
+    //修改
+    public  boolean edit(User user);
+    //查询
+    public  User findOne(int id);
+}
