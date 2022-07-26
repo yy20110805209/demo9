@@ -5,9 +5,7 @@ import com.example1.demo2.entity.User;
 import com.example1.demo2.mapper.UserMapper;
 import com.example1.demo2.service.UserService;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
-
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
     @Override
